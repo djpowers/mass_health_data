@@ -10,7 +10,7 @@ class AddAllColumnTypes < ActiveRecord::Migration
     add_column :town_health_records, :percentage_of_people_beneath_200percent_poverty, :float
     add_column :town_health_records, :percent_adequacy_of_prenatal_care, :float
     add_column :town_health_records, :percent_c_section_deliveries_2005_to_2008, :float
-    add_column :town_health_records, :number_of_infant_deaths_2005_to_2008, :float
+    add_column :town_health_records, :number_of_infant_deaths_2005_to_2008, :integer
     add_column :town_health_records, :infant_mortality_rate, :float
     add_column :town_health_records, :percent_of_babies_with_low_birthweight, :float
     add_column :town_health_records, :percent_multiple_births, :float
